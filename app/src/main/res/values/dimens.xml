@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_q_w">180dp</dimen>
+    <dimen name="btn_q_h">60dp</dimen>
+
+    <dimen name="btn_r_w">180dp</dimen>
+    <dimen name="btn_r_h">60dp</dimen>
+
+
+</resources>

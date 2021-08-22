@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XX/"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_yy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YY"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <Button
+            android:id="@+id/btn_Voice"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_record_voice_over_24"
+            android:onClick="showAction"
+            />
+
+        <TextView
+            android:id="@+id/tv_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="60"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_ans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Press A Button for Answer"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="12"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_baseline_arrow_left_24"
+        android:onClick="showAction"
+        tools:ignore="OnClick" />
+    <ImageButton
+        android:id="@+id/btn_ans"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_baseline_alternate_email_24"
+        android:onClick="showAction"
+        tools:ignore="OnClick"
+        />
+    <ImageButton
+        android:id="@+id/btn_front"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_baseline_arrow_right_24"
+        android:onClick="showAction"
+        tools:ignore="OnClick"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

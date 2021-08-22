@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qu">
+        <item>What is HTML?</item>
+        <item>What is Java?</item>
+        <item>What is CSS?</item>
+        <item>What is Kotlin?</item>
+        <item>What is JS?</item>
+    </string-array>
+</resources>

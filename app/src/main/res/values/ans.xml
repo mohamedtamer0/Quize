@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ans">
+        <item>HTML is sdfhsdjkhfjksdhfkjhskdf</item>
+        <item>Java is alshdfkjashdfdjkhaskfhsaasfasfasdf</item>
+        <item>CSS is alshdfkjashdfdjkhaskfhsaasfasfasdf</item>
+        <item>Kotlin is alshdfkjashdfdjkhaskfhsaasfasfasdf</item>
+        <item>JS is alshdfkjashdfdjkhaskfhsaasfasfasdf</item>
+    </string-array>
+</resources>
